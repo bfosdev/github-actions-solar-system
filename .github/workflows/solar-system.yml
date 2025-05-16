@@ -72,7 +72,7 @@ jobs:
 
     docker:
       permissions: 
-         packages: write
+        packages: write
       runs-on: ubuntu-latest
       needs: [unit-testing, code-coverage]
       steps:
